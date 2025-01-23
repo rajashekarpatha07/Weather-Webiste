@@ -24,7 +24,7 @@ If you want to set up this app locally, follow these steps:
 1. **Clone the repository:**
 
    ```bash
-   git clone [https://github.com/rajashekarpatha07/Weather-Webiste.git](https://github.com/rajashekarpatha07/Weather-Webiste.git)
+   git clone https://github.com/rajashekarpatha07/Weather-Webiste.git
 2. **Install dependencies:**
     ```bash
     npm install
