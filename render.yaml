@@ -1,0 +1,14 @@
+# Exported from Render on 2025-01-23T11:59:46Z
+services:
+- type: web
+  name: Weather-Webiste
+  runtime: node
+  repo: https://github.com/rajashekarpatha07/Weather-Webiste
+  plan: free
+  envVars:
+  - key: Weather-App-APi
+    sync: false
+  region: oregon
+  buildCommand: yarn
+  startCommand: yarn start
+version: "1"
