@@ -1,7 +1,7 @@
 const request = require('request');
 // Use weather stack api for weather details
 const forecast = (lat, lng, callback) => {
-    const url = `https://api.weatherstack.com/current?access_key=5f7550855f60c38f9d78e01bced0c47c&query=${lat},${lng}`;
+    const url = `https://api.weatherstack.com/current?access_key=b367f2fbbd5827ffc6f1f0682a63c06f&query=${lat},${lng}`;
 
     request({ url, json: true }, (error, {body}) => {
         if (error) {
